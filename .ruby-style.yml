@@ -1,11 +1,11 @@
 AllCops:
   Include:
   - "**/*.rake"
-  - "**/Gemfile"
-  - "**/Rakefile"
   Exclude:
   - "vendor/**/*"
   - "db/**/*"
+  - "**/Gemfile"
+  - "**/Rakefile"
   RunRailsCops: true
   DisplayCopNames: false
   StyleGuideCopsOnly: false
